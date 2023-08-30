@@ -1,0 +1,89 @@
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50pxpx;
+}
+
+
+#SectionHeading{
+    font-weight: 300;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 30px;
+}
+ 
+h1, h2, h3 {
+    font-family: "Montserrat", sans-serif;
+}
+ 
+.product-name {
+    font-family: "Open Sans", sans-serif;
+}
+
+div{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.displayProds{
+    width: max-content;
+}
+
+.displayProds td{
+    padding: 20px;
+    margin: 10px;
+}
+
+.displayProds caption{
+    font-size: large;
+    font-weight: bolder;
+}
+
+body img{
+    width: 200px;
+    height: 200px
+}
+
+#nav p{
+    display: inline;
+    margin-right: 20px;
+}
+
+.product-card{
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details {
+    padding-left: 10px;
+    float: right;
+    margin: 5px 0;
+}
+
+.product-name {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+
+.button{
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.button:hover{
+    background-color: #0056b3;
+}
